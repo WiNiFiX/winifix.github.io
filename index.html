@@ -1,14 +1,48 @@
-<style>
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+<link rel="icon" type="image/png" href="favicon.png" />
+<style>	
+	body 
+	{
+        background-color: #eeeeee;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 50px;
+        margin: 100px 0;
+    }
+
+	article,
+	footer 
+	{
+        display: block;
+        margin: 0 auto;
+        width: 490px;
+    }
+	a     
+	{
+        color: #004466;
+        text-decoration: none;
+    }      
+	article 
+	{
+        background-color: #ffffff;
+        border: #cccccc solid 1px;
+        -moz-border-radius: 11px;
+        -webkit-border-radius: 11px;
+        border-radius: 11px;
+        padding: 20 1em;
+    }
+	#myVideo {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+	}
 </style>
 <body>
 <video autoplay muted loop id="myVideo">
   <source src="videos\bg.mp4" type="video/mp4">
 </video>
+<article>
+Under Construction
+</article>
 </body>
