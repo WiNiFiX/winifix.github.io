@@ -1,20 +1,30 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <link rel="icon" type="image/png" href="favicon.png" />
 <style>	
 	body 
-	{
-        background-image: url('img/gnome.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center; 
+	{        
         background-color: #eeeeee;
         font-family: Verdana, Arial, sans-serif;
         font-size: 15px;
-        margin: 100px 0;
+		margin: 0 auto;      
     }
+	.divcenter
+	{
+		margin: 110 auto;      
+        width: 1024px;
+		height: 576px;
+		background-image: url('img/gnome.jpg');
+		background-repeat: no-repeat;
+	}
 	article	
 	{    
-        margin: 0 auto;
-        width: 500px;
+        margin: 110 auto;              
     }
 	a     
 	{
@@ -25,12 +35,12 @@
     }      
 	article 
 	{
-        background-color: #ffffff;
+        background-color: #eeeeee;
         border: #cccccc solid 1px;
         -moz-border-radius: 11px;
         -webkit-border-radius: 11px;
-        border-radius: 10px;
-        padding: 20px;
+        border-radius: 10px;        
+		width: 1024px;
     }
 	.join 
     {
@@ -38,24 +48,35 @@
 		top: -50px;						    
         left: 80px;
         width: 500px;
-        font-size: 50px;
+        font-size: 20px;
+	}
+	.top
+	{
+		background-color: #eeeeee;
+	    position: relative;
+		top: -20px;		
+		padding: 5px;
 	}
     .bottom
-    {        
-        top: 500px;		
-        margin: 510 auto;        
+    {   
+        position: relative;
+		top: 390px;					
+		padding: 20px;
     }
 </style>
 <title>
 It shall not be named ...
 </title>
 <body>
-<article>
-    <a href="https://join.slack.com/t/zygor/shared_invite/enQtNDQ4OTExOTAwNzEwLTJiZGE5YzNjNjhjYTNkNGM3MTg2MTQyNjc4MzgzZjRmN2ZkZDBkNzhjZDYyYzFjODBkOTgwNDIwYTRlNzZjY2I"><img src="img/slack.svg"><div class="join">Join our chat...</div></a>
+<div class="divcenter">
+<article class="top">
+	<button type="button" class="btn btn-primary active" onclick="window.location.href='https://bit.ly/2QllTbu'">Pixel botting chat...</button>    
+	<button type="button" class="btn btn-primary active" onclick="window.location.href='http://41.185.28.111/Application.exe'">Download Lua Unlocker</button>    
+	<button type="button" class="btn btn-primary disabled" onclick="window.location.href='#'">Lua Unlocker chat...</button>    
 </article>
 <article class="bottom">
-By coders who love automation...<br>
-Please don't join if you are not interested in botting<br>
-Botting is not against any laws, but it is against TOS
+By coders who love automation... botting is not against any laws, but it is against TOS
 </article>
+</div>
 </body>
+</html>
