@@ -1,3 +1,2 @@
 Changes
-Change Log
 2019.03.21 - Added option to resize main window as per request.
