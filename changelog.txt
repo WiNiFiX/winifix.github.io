@@ -1,6 +1,1 @@
-Changelog
-2019.03.21
-Added option to resize main window as per request.
-
-2019.04.30
-Updated system to now use serial number for registrations - you will need to update.
+If you would like to instead use the C# beta build, let me know and I will provide you with that link.
